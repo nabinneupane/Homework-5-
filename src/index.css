@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+tr { 
+  border: solid;
+  border-width: 2px 0;
+}
+
+
+tr:first-child {
+  border-top: none;
+}
+
+
+
+.catagory{
+ border-top: none;
+ border-bottom: none;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ text-align: center;
+}
+
+.table{  
+  height: auto;
+  width: auto;
+  border: 3px solid black;
+  display: table-cell;
+  
+}
+
+.moveTable{
+  margin-top:-250px;
+  margin-left:120px
+}
+
+.forForm{
+  margin-bottom: 15px;
+}
